@@ -226,27 +226,27 @@
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+      <![CDATA[ INFO AFlightPage#  69: 'Add Text to OUTBOUND Fields'
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+      <![CDATA[ INFO AFlightPage#  77: 'Add Text to INBOUND Fields'
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage#  93: 'Click Button: 'Search'
+      <![CDATA[ INFO AFlightPage#  85: 'Click Button: 'Search'
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage#  96: 'Select Flight Out'
+      <![CDATA[ INFO AFlightPage#  88: 'Select Flight Out'
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage# 105: 'Select Flight In'
+      <![CDATA[ INFO AFlightPage#  97: 'Select Flight In'
 ]]>
     </line>
     <line>
-      <![CDATA[ INFO AFlightPage# 112: 'Get total price'
+      <![CDATA[ INFO AFlightPage# 104: 'Get total price'
 ]]>
     </line>
     <line>
@@ -558,74 +558,12 @@
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="193139" started-at="2017-08-21T07:52:25Z" finished-at="2017-08-21T07:55:38Z">
+  <suite name="Default suite" duration-ms="213737" started-at="2017-08-21T19:52:31Z" finished-at="2017-08-21T19:56:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="193139" started-at="2017-08-21T07:52:25Z" finished-at="2017-08-21T07:55:38Z">
-      <class name="com.epam.transavia.SingleFlyTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="startBrowser" is-config="true" duration-ms="2818" started-at="2017-08-21T10:54:30Z" finished-at="2017-08-21T10:54:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="doFly()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="doFly" duration-ms="15880" started-at="2017-08-21T10:54:33Z" finished-at="2017-08-21T10:54:49Z">
-          <reporter-output>
-            <line>
-              <![CDATA[ INFO ngleFlyTest#  18: start: doFly
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO    MainPage# 111: Select Date
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO hFlightPage#  42: 'Checked the presencse of flights'
-]]>
-            </line>
-            <line>
-              <![CDATA[ INFO ngleFlyTest#  23: doFly: check OK;
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- doFly -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="quitBrowser" is-config="true" duration-ms="514" started-at="2017-08-21T10:54:49Z" finished-at="2017-08-21T10:54:49Z">
-          <reporter-output>
-            <line>
-              <![CDATA[ INFO    BaseTest#  42: Close browser
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- com.epam.transavia.SingleFlyTest -->
+    <test name="Default test" duration-ms="213737" started-at="2017-08-21T19:52:31Z" finished-at="2017-08-21T19:56:05Z">
       <class name="com.epam.transavia.TotalSumTicketsTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="startBrowser" is-config="true" duration-ms="2840" started-at="2017-08-21T10:55:07Z" finished-at="2017-08-21T10:55:10Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="startBrowser" is-config="true" duration-ms="2737" started-at="2017-08-21T22:55:36Z" finished-at="2017-08-21T22:55:39Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -637,7 +575,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="buyTicketsTest()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="buyTicketsTest" duration-ms="27627" started-at="2017-08-21T10:55:10Z" finished-at="2017-08-21T10:55:38Z">
+        <test-method status="PASS" signature="buyTicketsTest()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="buyTicketsTest" duration-ms="25742" started-at="2017-08-21T22:55:39Z" finished-at="2017-08-21T22:56:04Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO TicketsTest#  15: start: buyTicketsTest
@@ -697,7 +635,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- buyTicketsTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="quitBrowser" is-config="true" duration-ms="478" started-at="2017-08-21T10:55:38Z" finished-at="2017-08-21T10:55:38Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="quitBrowser" is-config="true" duration-ms="387" started-at="2017-08-21T22:56:04Z" finished-at="2017-08-21T22:56:05Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -706,8 +644,8 @@
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.TotalSumTicketsTest -->
-      <class name="com.epam.transavia.VideoLinkTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="startBrowser" is-config="true" duration-ms="2706" started-at="2017-08-21T10:53:11Z" finished-at="2017-08-21T10:53:14Z">
+      <class name="com.epam.transavia.SingleFlyTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="startBrowser" is-config="true" duration-ms="2755" started-at="2017-08-21T22:55:02Z" finished-at="2017-08-21T22:55:04Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -719,7 +657,69 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="getVideoTest()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="getVideoTest" duration-ms="12079" started-at="2017-08-21T10:53:14Z" finished-at="2017-08-21T10:53:26Z">
+        <test-method status="PASS" signature="doFly()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="doFly" duration-ms="14317" started-at="2017-08-21T22:55:04Z" finished-at="2017-08-21T22:55:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO ngleFlyTest#  18: start: doFly
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 111: Select Date
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  42: 'Checked the presencse of flights'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ngleFlyTest#  23: doFly: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doFly -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="quitBrowser" is-config="true" duration-ms="463" started-at="2017-08-21T22:55:19Z" finished-at="2017-08-21T22:55:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.SingleFlyTest -->
+      <class name="com.epam.transavia.VideoLinkTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="startBrowser" is-config="true" duration-ms="2781" started-at="2017-08-21T22:53:23Z" finished-at="2017-08-21T22:53:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="getVideoTest()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="getVideoTest" duration-ms="23918" started-at="2017-08-21T22:53:26Z" finished-at="2017-08-21T22:53:50Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO deoLinkTest#  16: start: getVideoTest
@@ -771,7 +771,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- getVideoTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="quitBrowser" is-config="true" duration-ms="405" started-at="2017-08-21T10:53:26Z" finished-at="2017-08-21T10:53:27Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="quitBrowser" is-config="true" duration-ms="407" started-at="2017-08-21T22:53:50Z" finished-at="2017-08-21T22:53:50Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -781,7 +781,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.VideoLinkTest -->
       <class name="com.epam.transavia.CheckMultipleFlightTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="startBrowser" is-config="true" duration-ms="2732" started-at="2017-08-21T10:53:27Z" finished-at="2017-08-21T10:53:29Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="startBrowser" is-config="true" duration-ms="2728" started-at="2017-08-21T22:53:50Z" finished-at="2017-08-21T22:53:53Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -793,7 +793,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="checkFlight()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="checkFlight" duration-ms="19416" started-at="2017-08-21T10:53:29Z" finished-at="2017-08-21T10:53:49Z">
+        <test-method status="PASS" signature="checkFlight()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="checkFlight" duration-ms="21036" started-at="2017-08-21T22:53:53Z" finished-at="2017-08-21T22:54:14Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO eFlightTest#  19: start: checkFlight
@@ -820,27 +820,27 @@
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+              <![CDATA[ INFO AFlightPage#  69: 'Add Text to OUTBOUND Fields'
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+              <![CDATA[ INFO AFlightPage#  77: 'Add Text to INBOUND Fields'
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage#  93: 'Click Button: 'Search'
+              <![CDATA[ INFO AFlightPage#  85: 'Click Button: 'Search'
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage#  96: 'Select Flight Out'
+              <![CDATA[ INFO AFlightPage#  88: 'Select Flight Out'
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage# 105: 'Select Flight In'
+              <![CDATA[ INFO AFlightPage#  97: 'Select Flight In'
 ]]>
             </line>
             <line>
-              <![CDATA[ INFO AFlightPage# 112: 'Get total price'
+              <![CDATA[ INFO AFlightPage# 104: 'Get total price'
 ]]>
             </line>
             <line>
@@ -849,7 +849,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkFlight -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="quitBrowser" is-config="true" duration-ms="708" started-at="2017-08-21T10:53:49Z" finished-at="2017-08-21T10:53:49Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="quitBrowser" is-config="true" duration-ms="448" started-at="2017-08-21T22:54:14Z" finished-at="2017-08-21T22:54:15Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -859,7 +859,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.CheckMultipleFlightTest -->
       <class name="com.epam.transavia.FindFlightFromDubaiTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="startBrowser" is-config="true" duration-ms="3959" started-at="2017-08-21T10:54:49Z" finished-at="2017-08-21T10:54:53Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="startBrowser" is-config="true" duration-ms="2734" started-at="2017-08-21T22:55:19Z" finished-at="2017-08-21T22:55:22Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -871,7 +871,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="findFlightFromDubai()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="findFlightFromDubai" duration-ms="13355" started-at="2017-08-21T10:54:53Z" finished-at="2017-08-21T10:55:07Z">
+        <test-method status="PASS" signature="findFlightFromDubai()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="findFlightFromDubai" duration-ms="13384" started-at="2017-08-21T22:55:22Z" finished-at="2017-08-21T22:55:35Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO omDubaiTest#  16: start: findFlightFromDubai
@@ -911,7 +911,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- findFlightFromDubai -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="quitBrowser" is-config="true" duration-ms="589" started-at="2017-08-21T10:55:07Z" finished-at="2017-08-21T10:55:07Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="quitBrowser" is-config="true" duration-ms="382" started-at="2017-08-21T22:55:35Z" finished-at="2017-08-21T22:55:36Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -921,7 +921,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.FindFlightFromDubaiTest -->
       <class name="com.epam.transavia.SumAndAmountTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="startBrowser" is-config="true" duration-ms="2813" started-at="2017-08-21T10:53:49Z" finished-at="2017-08-21T10:53:52Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="startBrowser" is-config="true" duration-ms="2747" started-at="2017-08-21T22:54:15Z" finished-at="2017-08-21T22:54:17Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -933,7 +933,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="doCompareSumAndAmount()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="doCompareSumAndAmount" duration-ms="19035" started-at="2017-08-21T10:53:52Z" finished-at="2017-08-21T10:54:11Z">
+        <test-method status="PASS" signature="doCompareSumAndAmount()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="doCompareSumAndAmount" duration-ms="23906" started-at="2017-08-21T22:54:17Z" finished-at="2017-08-21T22:54:41Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO dAmountTest#  16: start: doCompareSumAndAmount
@@ -997,7 +997,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- doCompareSumAndAmount -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="quitBrowser" is-config="true" duration-ms="602" started-at="2017-08-21T10:54:11Z" finished-at="2017-08-21T10:54:12Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="quitBrowser" is-config="true" duration-ms="399" started-at="2017-08-21T22:54:41Z" finished-at="2017-08-21T22:54:42Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -1007,7 +1007,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.SumAndAmountTest -->
       <class name="com.epam.transavia.OneWayTicketTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="startBrowser" is-config="true" duration-ms="3262" started-at="2017-08-21T10:52:25Z" finished-at="2017-08-21T10:52:28Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="startBrowser" is-config="true" duration-ms="3284" started-at="2017-08-21T22:52:31Z" finished-at="2017-08-21T22:52:34Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -1019,7 +1019,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="findDestination()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="findDestination" duration-ms="22953" started-at="2017-08-21T10:52:28Z" finished-at="2017-08-21T10:52:51Z">
+        <test-method status="PASS" signature="findDestination()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="findDestination" duration-ms="19162" started-at="2017-08-21T22:52:34Z" finished-at="2017-08-21T22:52:53Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO yTicketTest#  15: start: findDestination
@@ -1067,7 +1067,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- findDestination -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="quitBrowser" is-config="true" duration-ms="883" started-at="2017-08-21T10:52:51Z" finished-at="2017-08-21T10:52:52Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="quitBrowser" is-config="true" duration-ms="972" started-at="2017-08-21T22:52:53Z" finished-at="2017-08-21T22:52:54Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -1077,7 +1077,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.OneWayTicketTest -->
       <class name="com.epam.transavia.ArrivalTimeTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="startBrowser" is-config="true" duration-ms="2772" started-at="2017-08-21T10:52:52Z" finished-at="2017-08-21T10:52:55Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="startBrowser" is-config="true" duration-ms="2776" started-at="2017-08-21T22:52:54Z" finished-at="2017-08-21T22:52:57Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -1089,7 +1089,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="findBookingFlight()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="findBookingFlight" duration-ms="16013" started-at="2017-08-21T10:52:55Z" finished-at="2017-08-21T10:53:11Z">
+        <test-method status="PASS" signature="findBookingFlight()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="findBookingFlight" duration-ms="25721" started-at="2017-08-21T22:52:57Z" finished-at="2017-08-21T22:53:23Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO valTimeTest#  20: start: findBookingFlight
@@ -1157,7 +1157,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- findBookingFlight -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="quitBrowser" is-config="true" duration-ms="387" started-at="2017-08-21T10:53:11Z" finished-at="2017-08-21T10:53:11Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="quitBrowser" is-config="true" duration-ms="383" started-at="2017-08-21T22:53:23Z" finished-at="2017-08-21T22:53:23Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser
@@ -1167,7 +1167,7 @@
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.epam.transavia.ArrivalTimeTest -->
       <class name="com.epam.transavia.LowCostTicketTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="startBrowser" is-config="true" duration-ms="2828" started-at="2017-08-21T10:54:12Z" finished-at="2017-08-21T10:54:15Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="startBrowser" is-config="true" duration-ms="2728" started-at="2017-08-21T22:54:42Z" finished-at="2017-08-21T22:54:44Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
@@ -1179,7 +1179,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="findFlight()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="findFlight" duration-ms="14570" started-at="2017-08-21T10:54:15Z" finished-at="2017-08-21T10:54:29Z">
+        <test-method status="PASS" signature="findFlight()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="findFlight" duration-ms="16944" started-at="2017-08-21T22:54:44Z" finished-at="2017-08-21T22:55:01Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO tTicketTest#  19: start: findFlight
@@ -1235,7 +1235,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- findFlight -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="quitBrowser" is-config="true" duration-ms="900" started-at="2017-08-21T10:54:29Z" finished-at="2017-08-21T10:54:30Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="quitBrowser" is-config="true" duration-ms="461" started-at="2017-08-21T22:55:01Z" finished-at="2017-08-21T22:55:02Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO    BaseTest#  42: Close browser

@@ -1,15 +1,16 @@
 package com.epam.transavia;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage extends BasePage {
 	private static final Logger LOG = Logger.getLogger(MainPage.class);
-	private static final String BUTTONYESXPATH = "//div[@class='cc-left']/button";
-
+	
 	@FindBy(id = "routeSelection_DepartureStation-input")
 	private WebElement fromField;
 
@@ -61,7 +62,7 @@ public class MainPage extends BasePage {
 	@FindBy(xpath = "//div[@id='horizontal-sub-navigation-service']//a[contains(.,'Handluggage')]")
 	private WebElement buttonHandLuggage;
 
-	@FindBy(xpath = BUTTONYESXPATH)
+	@FindBy(xpath = "//div[@class='cc-left']/button")
 	private WebElement buttonYes;
 
 	public MainPage(WebDriver driver) {
@@ -71,7 +72,6 @@ public class MainPage extends BasePage {
 	@Override
 	public void waitForLoaded() {
 		waitForButtonYes();
-		clickButton();
 		super.waitForLoaded();
 	}
 
@@ -153,12 +153,13 @@ public class MainPage extends BasePage {
 		toField.sendKeys(to);
 	}
 
-	public void waitForButtonYes() {
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+	public void waitForButtonYes() {	
+		WebDriverWait wait = new WebDriverWait(driver, 3);
+		try{
+		wait.until(ExpectedConditions.invisibilityOf(buttonYes));
 		}
-		waitPresenceAndVisibility(By.xpath(BUTTONYESXPATH));
+		catch (TimeoutException e){
+			clickButton();
+		}
 	}
 }

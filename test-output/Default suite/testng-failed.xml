@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.epam.transavia.CheckMultipleFlightTest">
+      <class name="com.epam.transavia.VideoLinkTest">
         <methods>
           <include name="startBrowser"/>
-          <include name="checkFlight"/>
+          <include name="getVideoTest"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.epam.transavia.CheckMultipleFlightTest -->
+      </class> <!-- com.epam.transavia.VideoLinkTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

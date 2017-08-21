@@ -3,13 +3,6 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.epam.transavia.SumAndAmountTest">
-        <methods>
-          <include name="startBrowser"/>
-          <include name="doCompareSumAndAmount"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.epam.transavia.SumAndAmountTest -->
       <class name="com.epam.transavia.VideoLinkTest">
         <methods>
           <include name="startBrowser"/>

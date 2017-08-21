@@ -356,44 +356,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'buyTicketsTest')
 data.setCell(0, 2, 'com.epam.transavia.TotalSumTicketsTest')
-data.setCell(0, 3, 26873);
+data.setCell(0, 3, 54854);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'findBookingFlight')
 data.setCell(1, 2, 'com.epam.transavia.ArrivalTimeTest')
-data.setCell(1, 3, 25696);
+data.setCell(1, 3, 32481);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'findDestination')
-data.setCell(2, 2, 'com.epam.transavia.OneWayTicketTest')
-data.setCell(2, 3, 25168);
+data.setCell(2, 1, 'checkFlight')
+data.setCell(2, 2, 'com.epam.transavia.CheckMultipleFlightTest')
+data.setCell(2, 3, 20490);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkFlight')
-data.setCell(3, 2, 'com.epam.transavia.CheckMultipleFlightTest')
-data.setCell(3, 3, 20089);
+data.setCell(3, 1, 'doCompareSumAndAmount')
+data.setCell(3, 2, 'com.epam.transavia.SumAndAmountTest')
+data.setCell(3, 3, 18874);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'doCompareSumAndAmount')
-data.setCell(4, 2, 'com.epam.transavia.SumAndAmountTest')
-data.setCell(4, 3, 17581);
+data.setCell(4, 1, 'findFlight')
+data.setCell(4, 2, 'com.epam.transavia.LowCostTicketTest')
+data.setCell(4, 3, 15559);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'doFly')
-data.setCell(5, 2, 'com.epam.transavia.SingleFlyTest')
-data.setCell(5, 3, 17015);
+data.setCell(5, 1, 'findDestination')
+data.setCell(5, 2, 'com.epam.transavia.OneWayTicketTest')
+data.setCell(5, 3, 15518);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'findFlight')
-data.setCell(6, 2, 'com.epam.transavia.LowCostTicketTest')
-data.setCell(6, 3, 15299);
+data.setCell(6, 1, 'getVideoTest')
+data.setCell(6, 2, 'com.epam.transavia.VideoLinkTest')
+data.setCell(6, 3, 15222);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'findFlightFromDubai')
-data.setCell(7, 2, 'com.epam.transavia.FindFlightFromDubaiTest')
-data.setCell(7, 3, 13868);
+data.setCell(7, 1, 'doFly')
+data.setCell(7, 2, 'com.epam.transavia.SingleFlyTest')
+data.setCell(7, 3, 14026);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'getVideoTest')
-data.setCell(8, 2, 'com.epam.transavia.VideoLinkTest')
-data.setCell(8, 3, 13288);
+data.setCell(8, 1, 'findFlightFromDubai')
+data.setCell(8, 2, 'com.epam.transavia.FindFlightFromDubaiTest')
+data.setCell(8, 3, 12743);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -405,9 +405,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">findFlightFromDubai</span>
+              <span class="reporter-method-name">checkFlight</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO omDubaiTest#  16: start: findFlightFromDubai
+                <span class="reporter-method-output"> INFO eFlightTest#  19: start: checkFlight
 </span>
                 <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
 </span>
@@ -417,13 +417,21 @@ return data;
 </span>
                 <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+                <span class="reporter-method-output"> INFO    MainPage# 101: Click Add multiple destinations link
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 119: 'Click Search Flight from  Dubai to Agadir'
+                <span class="reporter-method-output"> INFO AFlightPage#  69: 'Add Text to OUTBOUND Fields'
 </span>
-                <span class="reporter-method-output"> INFO hFlightPage#  47: 'Checked the error text'
+                <span class="reporter-method-output"> INFO AFlightPage#  77: 'Add Text to INBOUND Fields'
 </span>
-                <span class="reporter-method-output"> INFO omDubaiTest#  21: findFlightFromDubai: check OK;
+                <span class="reporter-method-output"> INFO AFlightPage#  85: 'Click Button: 'Search'
+</span>
+                <span class="reporter-method-output"> INFO AFlightPage#  88: 'Select Flight Out'
+</span>
+                <span class="reporter-method-output"> INFO AFlightPage#  97: 'Select Flight In'
+</span>
+                <span class="reporter-method-output"> INFO AFlightPage# 104: 'Get total price'
+</span>
+                <span class="reporter-method-output"> INFO eFlightTest#  24: checkFlight: check OK;
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -457,9 +465,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">doCompareSumAndAmount</span>
+              <span class="reporter-method-name">doFly</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO dAmountTest#  16: start: doCompareSumAndAmount
+                <span class="reporter-method-output"> INFO ngleFlyTest#  18: start: doFly
 </span>
                 <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
 </span>
@@ -469,32 +477,20 @@ return data;
 </span>
                 <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 125: Click Button: 'Manage your Booking'
+                <span class="reporter-method-output"> INFO    MainPage# 149: Add Text to fields 'From' and 'To'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 127: Click Button: 'View your Booking'
+                <span class="reporter-method-output"> INFO    MainPage# 111: Select Date
 </span>
-                <span class="reporter-method-output"> INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+                <span class="reporter-method-output"> INFO hFlightPage#  42: 'Checked the presencse of flights'
 </span>
-                <span class="reporter-method-output"> INFO iaLoginPage#  31: 'Add Text to LastName Field'
-</span>
-                <span class="reporter-method-output"> INFO iaLoginPage#  34: 'Add Text to Date Field'
-</span>
-                <span class="reporter-method-output"> INFO iaLoginPage#  38: 'Click Button: 'View Booking'
-</span>
-                <span class="reporter-method-output"> INFO ingOverview#  31: 'Click Button: 'Booking details'
-</span>
-                <span class="reporter-method-output"> INFO kingDetails#  27: 'Get Sum'
-</span>
-                <span class="reporter-method-output"> INFO kingDetails#  22: 'Get Payment amount'
-</span>
-                <span class="reporter-method-output"> INFO dAmountTest#  23: doCompareSumAndAmount: check OK;
+                <span class="reporter-method-output"> INFO ngleFlyTest#  23: doFly: check OK;
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">checkFlight</span>
+              <span class="reporter-method-name">buyTicketsTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO eFlightTest#  19: start: checkFlight
+                <span class="reporter-method-output"> INFO TicketsTest#  15: start: buyTicketsTest
 </span>
                 <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
 </span>
@@ -504,48 +500,23 @@ return data;
 </span>
                 <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 101: Click Add multiple destinations link
+                <span class="reporter-method-output"> INFO    MainPage# 149: Add Text to fields 'From' and 'To'
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+                <span class="reporter-method-output"> INFO    MainPage# 138: Add One adult and One Child to passengers completed
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+                <span class="reporter-method-output"> INFO hFlightPage#  53: 'Select flight out'
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage#  93: 'Click Button: 'Search'
+                <span class="reporter-method-output"> INFO hFlightPage#  59: 'Select flight in'
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage#  96: 'Select Flight Out'
+                <span class="reporter-method-output"> INFO hFlightPage#  62: 'Click Button: 'Next'
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage# 105: 'Select Flight In'
+                <span class="reporter-method-output"> INFO LuggagePage#  33: 'Get Price one person and Price Luggage'
 </span>
-                <span class="reporter-method-output"> INFO AFlightPage# 112: 'Get total price'
+                <span class="reporter-method-output"> INFO LuggagePage#  38: 'Click Button: 'Select Plus'
 </span>
-                <span class="reporter-method-output"> INFO eFlightTest#  24: checkFlight: check OK;
+                <span class="reporter-method-output"> INFO LuggagePage#  42: 'Get Total amount'
 </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">findDestination</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO yTicketTest#  15: start: findDestination
-</span>
-                <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
-</span>
-                <span class="reporter-method-output"> INFO    BaseTest#  33: finish, 'navigate;
-</span>
-                <span class="reporter-method-output"> INFO WelcomePage#  22: click: 'Select your country'
-</span>
-                <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
-</span>
-                <span class="reporter-method-output"> INFO    MainPage#  95: Click Button: 'Destinations'
-</span>
-                <span class="reporter-method-output"> INFO nationsPage#  19: 'Click Button: 'Find the perfect destination'
-</span>
-                <span class="reporter-method-output"> INFO inationPage#  93: 'Add Text to FROM Fields'
-</span>
-                <span class="reporter-method-output"> INFO inationPage#  96: 'Click Button: 'What Is Your Budget'
-</span>
-                <span class="reporter-method-output"> INFO inationPage# 102: 'Click Button: 'Search'
-</span>
-                <span class="reporter-method-output"> INFO yTicketTest#  21: findDestination: check OK;
+                <span class="reporter-method-output"> INFO TicketsTest#  21: buyTicketsTest: check OK;
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -587,9 +558,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">buyTicketsTest</span>
+              <span class="reporter-method-name">findFlightFromDubai</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO TicketsTest#  15: start: buyTicketsTest
+                <span class="reporter-method-output"> INFO omDubaiTest#  16: start: findFlightFromDubai
 </span>
                 <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
 </span>
@@ -601,28 +572,18 @@ return data;
 </span>
                 <span class="reporter-method-output"> INFO    MainPage# 149: Add Text to fields 'From' and 'To'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 138: Add One adult and One Child to passengers completed
+                <span class="reporter-method-output"> INFO    MainPage# 119: 'Click Search Flight from  Dubai to Agadir'
 </span>
-                <span class="reporter-method-output"> INFO hFlightPage#  53: 'Select flight out'
+                <span class="reporter-method-output"> INFO hFlightPage#  47: 'Checked the error text'
 </span>
-                <span class="reporter-method-output"> INFO hFlightPage#  59: 'Select flight in'
-</span>
-                <span class="reporter-method-output"> INFO hFlightPage#  62: 'Click Button: 'Next'
-</span>
-                <span class="reporter-method-output"> INFO LuggagePage#  33: 'Get Price one person and Price Luggage'
-</span>
-                <span class="reporter-method-output"> INFO LuggagePage#  38: 'Click Button: 'Select Plus'
-</span>
-                <span class="reporter-method-output"> INFO LuggagePage#  42: 'Get Total amount'
-</span>
-                <span class="reporter-method-output"> INFO TicketsTest#  21: buyTicketsTest: check OK;
+                <span class="reporter-method-output"> INFO omDubaiTest#  21: findFlightFromDubai: check OK;
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">doFly</span>
+              <span class="reporter-method-name">findDestination</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> INFO ngleFlyTest#  18: start: doFly
+                <span class="reporter-method-output"> INFO yTicketTest#  15: start: findDestination
 </span>
                 <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
 </span>
@@ -632,13 +593,52 @@ return data;
 </span>
                 <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+                <span class="reporter-method-output"> INFO    MainPage#  95: Click Button: 'Destinations'
 </span>
-                <span class="reporter-method-output"> INFO    MainPage# 111: Select Date
+                <span class="reporter-method-output"> INFO nationsPage#  19: 'Click Button: 'Find the perfect destination'
 </span>
-                <span class="reporter-method-output"> INFO hFlightPage#  42: 'Checked the presencse of flights'
+                <span class="reporter-method-output"> INFO inationPage#  93: 'Add Text to FROM Fields'
 </span>
-                <span class="reporter-method-output"> INFO ngleFlyTest#  23: doFly: check OK;
+                <span class="reporter-method-output"> INFO inationPage#  96: 'Click Button: 'What Is Your Budget'
+</span>
+                <span class="reporter-method-output"> INFO inationPage# 102: 'Click Button: 'Search'
+</span>
+                <span class="reporter-method-output"> INFO yTicketTest#  21: findDestination: check OK;
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">doCompareSumAndAmount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO dAmountTest#  16: start: doCompareSumAndAmount
+</span>
+                <span class="reporter-method-output"> INFO    BaseTest#  31: Open page, 'navigate;
+</span>
+                <span class="reporter-method-output"> INFO    BaseTest#  33: finish, 'navigate;
+</span>
+                <span class="reporter-method-output"> INFO WelcomePage#  22: click: 'Select your country'
+</span>
+                <span class="reporter-method-output"> INFO    MainPage# 144: Click Button: 'Yes, I understand'
+</span>
+                <span class="reporter-method-output"> INFO    MainPage# 125: Click Button: 'Manage your Booking'
+</span>
+                <span class="reporter-method-output"> INFO    MainPage# 127: Click Button: 'View your Booking'
+</span>
+                <span class="reporter-method-output"> INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+</span>
+                <span class="reporter-method-output"> INFO iaLoginPage#  31: 'Add Text to LastName Field'
+</span>
+                <span class="reporter-method-output"> INFO iaLoginPage#  34: 'Add Text to Date Field'
+</span>
+                <span class="reporter-method-output"> INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+</span>
+                <span class="reporter-method-output"> INFO ingOverview#  31: 'Click Button: 'Booking details'
+</span>
+                <span class="reporter-method-output"> INFO kingDetails#  27: 'Get Sum'
+</span>
+                <span class="reporter-method-output"> INFO kingDetails#  22: 'Get Payment amount'
+</span>
+                <span class="reporter-method-output"> INFO dAmountTest#  23: doCompareSumAndAmount: check OK;
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -695,131 +695,131 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">findBookingFlight</span>
-                <span class="method-start">3475 ms</span>
+                <span class="method-start">3286 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">29172 ms</span>
+                <span class="method-start">35767 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.CheckMultipleFlightTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">29689 ms</span>
+                <span class="method-start">36220 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkFlight</span>
-                <span class="method-start">32486 ms</span>
+                <span class="method-start">38997 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">52575 ms</span>
+                <span class="method-start">59488 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.FindFlightFromDubaiTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">53122 ms</span>
+                <span class="method-start">59888 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">findFlightFromDubai</span>
-                <span class="method-start">55952 ms</span>
+                <span class="method-start">62723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">69821 ms</span>
+                <span class="method-start">75466 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.LowCostTicketTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">70358 ms</span>
+                <span class="method-start">75851 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">findFlight</span>
-                <span class="method-start">73224 ms</span>
+                <span class="method-start">78600 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">88523 ms</span>
+                <span class="method-start">94159 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.OneWayTicketTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">89399 ms</span>
+                <span class="method-start">94723 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">findDestination</span>
-                <span class="method-start">92134 ms</span>
+                <span class="method-start">97485 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">117303 ms</span>
+                <span class="method-start">113004 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.SingleFlyTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">118247 ms</span>
+                <span class="method-start">113875 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">doFly</span>
-                <span class="method-start">121177 ms</span>
+                <span class="method-start">116669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">138192 ms</span>
+                <span class="method-start">130696 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.SumAndAmountTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">138989 ms</span>
+                <span class="method-start">131063 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">doCompareSumAndAmount</span>
-                <span class="method-start">141915 ms</span>
+                <span class="method-start">133794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">159497 ms</span>
+                <span class="method-start">152668 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.TotalSumTicketsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">160031 ms</span>
+                <span class="method-start">153061 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">buyTicketsTest</span>
-                <span class="method-start">162878 ms</span>
+                <span class="method-start">155808 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">189751 ms</span>
+                <span class="method-start">210662 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.transavia.VideoLinkTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startBrowser</span>
-                <span class="method-start">190214 ms</span>
+                <span class="method-start">211084 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getVideoTest</span>
-                <span class="method-start">193072 ms</span>
+                <span class="method-start">213864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">206360 ms</span>
+                <span class="method-start">229087 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

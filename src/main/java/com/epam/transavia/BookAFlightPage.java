@@ -13,23 +13,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BookAFlightPage extends BasePage {
 	private static final Logger LOG = Logger.getLogger(BookAFlightPage.class);
-
 	private static final By OUTFLIGHTLOCATOR = By.xpath("//section[@class='flight outbound']//ol/li/div/div/span");
-
 	private static final By INFLIGHTLOCATOR = By.xpath("//section[@class='flight inbound']//ol/li/div/div/span");
-
 	private static final By BUTTONSELECTOUT = By
 			.xpath("//section[@class='flight outbound']//button[@class='flight-result-button']");
-
 	private static final By BUTTONSELECTIN = By
 			.xpath("//section[@class='flight inbound']//button[@class='flight-result-button']");
-
 	private static final By TOTALAMOUNT = By.xpath("//footer//h3[text()='Total amount']");
-
 	private static final By CHECKOUT = By.xpath("//div[@class='outbound']//div[@class='is-enabled']");
-
 	private static final By CHECKIN = By.xpath("//div[@class='inbound']//div[@class='is-enabled']");
-
 	private static final By SELECTEDINBUTTON = By
 			.xpath("//section[@class='flight inbound']//span[@class='icon-font icon-check']");
 
