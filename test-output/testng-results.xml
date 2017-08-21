@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO yTicketTest#  15: start: findDestination
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  95: Click Button: 'Destinations'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO nationsPage#  19: 'Click Button: 'Find the perfect destination'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  93: 'Add Text to FROM Fields'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  96: 'Click Button: 'What Is Your Budget'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage# 102: 'Click Button: 'Search'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO yTicketTest#  21: findDestination: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO valTimeTest#  20: start: findBookingFlight
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 127: Click Button: 'View your Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  34: 'Add Text to Date Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ingOverview#  37: 'Get Flight Number Text'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ingOverview#  42: 'Get From Field Text'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ingOverview#  47: 'Get To Field Text'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ingOverview#  52: 'Get Arrival Time Text'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO valTimeTest#  29: findBookingFlight: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO deoLinkTest#  16: start: getVideoTest
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  79: Click Button: 'Service'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  81: Click Button: 'HandLuggage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO LuggagePage#  28: 'Get VideoLink'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO LuggagePage#  33: 'Click Button: 'VideoLink'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO YouTubePage#  26: 'Get Video Name'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO YouTubePage#  34: 'Get Video Author'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO deoLinkTest#  24: getVideoTest: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO eFlightTest#  19: start: checkFlight
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 101: Click Add multiple destinations link
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage#  93: 'Click Button: 'Search'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage#  96: 'Select Flight Out'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage# 105: 'Select Flight In'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO AFlightPage# 112: 'Get total price'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO eFlightTest#  24: checkFlight: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO dAmountTest#  16: start: doCompareSumAndAmount
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 127: Click Button: 'View your Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  34: 'Add Text to Date Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ingOverview#  31: 'Click Button: 'Booking details'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO kingDetails#  27: 'Get Sum'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO kingDetails#  22: 'Get Payment amount'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO dAmountTest#  23: doCompareSumAndAmount: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO tTicketTest#  19: start: findFlight
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  87: Click Button: 'Plan And Book'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  89: Click Button: 'AdvancedSearch'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  69: 'Add Text to FROM Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  72: 'Add Text to TO Field'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  75: 'Click Button: 'Will You Be Taking Off'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  77: 'Select DropDown Fields'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO inationPage#  85: 'Click Button: 'Search'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO tTicketTest#  24: findFlight: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ngleFlyTest#  18: start: doFly
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 111: Select Date
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO hFlightPage#  42: 'Checked the presencse of flights'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO ngleFlyTest#  23: doFly: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO omDubaiTest#  16: start: findFlightFromDubai
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 119: 'Click Search Flight from  Dubai to Agadir'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO hFlightPage#  47: 'Checked the error text'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO omDubaiTest#  21: findFlightFromDubai: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO TicketsTest#  15: start: buyTicketsTest
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 138: Add One adult and One Child to passengers completed
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO hFlightPage#  53: 'Select flight out'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO hFlightPage#  59: 'Select flight in'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO hFlightPage#  62: 'Click Button: 'Next'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO LuggagePage#  33: 'Get Price one person and Price Luggage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO LuggagePage#  38: 'Click Button: 'Select Plus'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO LuggagePage#  42: 'Get Total amount'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO TicketsTest#  21: buyTicketsTest: check OK;
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="193139" started-at="2017-08-21T07:52:25Z" finished-at="2017-08-21T07:55:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="193139" started-at="2017-08-21T07:52:25Z" finished-at="2017-08-21T07:55:38Z">
+      <class name="com.epam.transavia.SingleFlyTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="startBrowser" is-config="true" duration-ms="2818" started-at="2017-08-21T10:54:30Z" finished-at="2017-08-21T10:54:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="doFly()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="doFly" duration-ms="15880" started-at="2017-08-21T10:54:33Z" finished-at="2017-08-21T10:54:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO ngleFlyTest#  18: start: doFly
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 111: Select Date
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  42: 'Checked the presencse of flights'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ngleFlyTest#  23: doFly: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doFly -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SingleFlyTest@65e2dbf3]" name="quitBrowser" is-config="true" duration-ms="514" started-at="2017-08-21T10:54:49Z" finished-at="2017-08-21T10:54:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.SingleFlyTest -->
+      <class name="com.epam.transavia.TotalSumTicketsTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="startBrowser" is-config="true" duration-ms="2840" started-at="2017-08-21T10:55:07Z" finished-at="2017-08-21T10:55:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="buyTicketsTest()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="buyTicketsTest" duration-ms="27627" started-at="2017-08-21T10:55:10Z" finished-at="2017-08-21T10:55:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO TicketsTest#  15: start: buyTicketsTest
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 138: Add One adult and One Child to passengers completed
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  53: 'Select flight out'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  59: 'Select flight in'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  62: 'Click Button: 'Next'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO LuggagePage#  33: 'Get Price one person and Price Luggage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO LuggagePage#  38: 'Click Button: 'Select Plus'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO LuggagePage#  42: 'Get Total amount'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO TicketsTest#  21: buyTicketsTest: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buyTicketsTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.TotalSumTicketsTest@61f8bee4]" name="quitBrowser" is-config="true" duration-ms="478" started-at="2017-08-21T10:55:38Z" finished-at="2017-08-21T10:55:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.TotalSumTicketsTest -->
+      <class name="com.epam.transavia.VideoLinkTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="startBrowser" is-config="true" duration-ms="2706" started-at="2017-08-21T10:53:11Z" finished-at="2017-08-21T10:53:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="getVideoTest()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="getVideoTest" duration-ms="12079" started-at="2017-08-21T10:53:14Z" finished-at="2017-08-21T10:53:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO deoLinkTest#  16: start: getVideoTest
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  79: Click Button: 'Service'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  81: Click Button: 'HandLuggage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO LuggagePage#  28: 'Get VideoLink'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO LuggagePage#  33: 'Click Button: 'VideoLink'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO YouTubePage#  26: 'Get Video Name'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO YouTubePage#  34: 'Get Video Author'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO deoLinkTest#  24: getVideoTest: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getVideoTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.VideoLinkTest@6325a3ee]" name="quitBrowser" is-config="true" duration-ms="405" started-at="2017-08-21T10:53:26Z" finished-at="2017-08-21T10:53:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.VideoLinkTest -->
+      <class name="com.epam.transavia.CheckMultipleFlightTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="startBrowser" is-config="true" duration-ms="2732" started-at="2017-08-21T10:53:27Z" finished-at="2017-08-21T10:53:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="checkFlight()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="checkFlight" duration-ms="19416" started-at="2017-08-21T10:53:29Z" finished-at="2017-08-21T10:53:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO eFlightTest#  19: start: checkFlight
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 101: Click Add multiple destinations link
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage#  93: 'Click Button: 'Search'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage#  96: 'Select Flight Out'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage# 105: 'Select Flight In'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO AFlightPage# 112: 'Get total price'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO eFlightTest#  24: checkFlight: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkFlight -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.CheckMultipleFlightTest@1d16f93d]" name="quitBrowser" is-config="true" duration-ms="708" started-at="2017-08-21T10:53:49Z" finished-at="2017-08-21T10:53:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.CheckMultipleFlightTest -->
+      <class name="com.epam.transavia.FindFlightFromDubaiTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="startBrowser" is-config="true" duration-ms="3959" started-at="2017-08-21T10:54:49Z" finished-at="2017-08-21T10:54:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="findFlightFromDubai()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="findFlightFromDubai" duration-ms="13355" started-at="2017-08-21T10:54:53Z" finished-at="2017-08-21T10:55:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO omDubaiTest#  16: start: findFlightFromDubai
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 119: 'Click Search Flight from  Dubai to Agadir'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO hFlightPage#  47: 'Checked the error text'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO omDubaiTest#  21: findFlightFromDubai: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findFlightFromDubai -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.FindFlightFromDubaiTest@4f970963]" name="quitBrowser" is-config="true" duration-ms="589" started-at="2017-08-21T10:55:07Z" finished-at="2017-08-21T10:55:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.FindFlightFromDubaiTest -->
+      <class name="com.epam.transavia.SumAndAmountTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="startBrowser" is-config="true" duration-ms="2813" started-at="2017-08-21T10:53:49Z" finished-at="2017-08-21T10:53:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="doCompareSumAndAmount()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="doCompareSumAndAmount" duration-ms="19035" started-at="2017-08-21T10:53:52Z" finished-at="2017-08-21T10:54:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO dAmountTest#  16: start: doCompareSumAndAmount
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 127: Click Button: 'View your Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  34: 'Add Text to Date Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ingOverview#  31: 'Click Button: 'Booking details'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO kingDetails#  27: 'Get Sum'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO kingDetails#  22: 'Get Payment amount'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO dAmountTest#  23: doCompareSumAndAmount: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doCompareSumAndAmount -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.SumAndAmountTest@67b92f0a]" name="quitBrowser" is-config="true" duration-ms="602" started-at="2017-08-21T10:54:11Z" finished-at="2017-08-21T10:54:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.SumAndAmountTest -->
+      <class name="com.epam.transavia.OneWayTicketTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="startBrowser" is-config="true" duration-ms="3262" started-at="2017-08-21T10:52:25Z" finished-at="2017-08-21T10:52:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="findDestination()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="findDestination" duration-ms="22953" started-at="2017-08-21T10:52:28Z" finished-at="2017-08-21T10:52:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO yTicketTest#  15: start: findDestination
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  95: Click Button: 'Destinations'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO nationsPage#  19: 'Click Button: 'Find the perfect destination'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  93: 'Add Text to FROM Fields'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  96: 'Click Button: 'What Is Your Budget'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage# 102: 'Click Button: 'Search'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO yTicketTest#  21: findDestination: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findDestination -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.OneWayTicketTest@7791a895]" name="quitBrowser" is-config="true" duration-ms="883" started-at="2017-08-21T10:52:51Z" finished-at="2017-08-21T10:52:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.OneWayTicketTest -->
+      <class name="com.epam.transavia.ArrivalTimeTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="startBrowser" is-config="true" duration-ms="2772" started-at="2017-08-21T10:52:52Z" finished-at="2017-08-21T10:52:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="findBookingFlight()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="findBookingFlight" duration-ms="16013" started-at="2017-08-21T10:52:55Z" finished-at="2017-08-21T10:53:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO valTimeTest#  20: start: findBookingFlight
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 127: Click Button: 'View your Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  34: 'Add Text to Date Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ingOverview#  37: 'Get Flight Number Text'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ingOverview#  42: 'Get From Field Text'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ingOverview#  47: 'Get To Field Text'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO ingOverview#  52: 'Get Arrival Time Text'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO valTimeTest#  29: findBookingFlight: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findBookingFlight -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.ArrivalTimeTest@3a5ed7a6]" name="quitBrowser" is-config="true" duration-ms="387" started-at="2017-08-21T10:53:11Z" finished-at="2017-08-21T10:53:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.ArrivalTimeTest -->
+      <class name="com.epam.transavia.LowCostTicketTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="startBrowser" is-config="true" duration-ms="2828" started-at="2017-08-21T10:54:12Z" finished-at="2017-08-21T10:54:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  21: start, 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  26: finish, 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="findFlight()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="findFlight" duration-ms="14570" started-at="2017-08-21T10:54:15Z" finished-at="2017-08-21T10:54:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO tTicketTest#  19: start: findFlight
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  31: Open page, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  33: finish, 'navigate;
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO WelcomePage#  22: click: 'Select your country'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  87: Click Button: 'Plan And Book'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  89: Click Button: 'AdvancedSearch'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  69: 'Add Text to FROM Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  72: 'Add Text to TO Field'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  75: 'Click Button: 'Will You Be Taking Off'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  77: 'Select DropDown Fields'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO inationPage#  85: 'Click Button: 'Search'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO tTicketTest#  24: findFlight: check OK;
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findFlight -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.epam.transavia.LowCostTicketTest@2b9627bc]" name="quitBrowser" is-config="true" duration-ms="900" started-at="2017-08-21T10:54:29Z" finished-at="2017-08-21T10:54:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    BaseTest#  42: Close browser
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.epam.transavia.LowCostTicketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,402 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 21 10:52:25 MSK 2017</td>
+</tr>
+<tr><td>Total time:</td><td>193 seconds (193139 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.transavia.TotalSumTicketsTest.buyTicketsTest()'><b>buyTicketsTest</b><br>Test class: com.epam.transavia.TotalSumTicketsTest<br/>
+<a href="#Output-769132147" onClick='toggleBox("Output-769132147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-769132147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-769132147">
+ INFO TicketsTest#  15: start: buyTicketsTest
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+<br/>
+ INFO    MainPage# 138: Add One adult and One Child to passengers completed
+<br/>
+ INFO hFlightPage#  53: 'Select flight out'
+<br/>
+ INFO hFlightPage#  59: 'Select flight in'
+<br/>
+ INFO hFlightPage#  62: 'Click Button: 'Next'
+<br/>
+ INFO LuggagePage#  33: 'Get Price one person and Price Luggage'
+<br/>
+ INFO LuggagePage#  38: 'Click Button: 'Select Plus'
+<br/>
+ INFO LuggagePage#  42: 'Get Total amount'
+<br/>
+ INFO TicketsTest#  21: buyTicketsTest: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.epam.transavia.TotalSumTicketsTest@61f8bee4</td></tr>
+<tr>
+<td title='com.epam.transavia.CheckMultipleFlightTest.checkFlight()'><b>checkFlight</b><br>Test class: com.epam.transavia.CheckMultipleFlightTest<br/>
+<a href="#Output-1990385139" onClick='toggleBox("Output-1990385139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1990385139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1990385139">
+ INFO eFlightTest#  19: start: checkFlight
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 101: Click Add multiple destinations link
+<br/>
+ INFO AFlightPage#  77: 'Add Text to OUTBOUND Fields'
+<br/>
+ INFO AFlightPage#  85: 'Add Text to INBOUND Fields'
+<br/>
+ INFO AFlightPage#  93: 'Click Button: 'Search'
+<br/>
+ INFO AFlightPage#  96: 'Select Flight Out'
+<br/>
+ INFO AFlightPage# 105: 'Select Flight In'
+<br/>
+ INFO AFlightPage# 112: 'Get total price'
+<br/>
+ INFO eFlightTest#  24: checkFlight: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.epam.transavia.CheckMultipleFlightTest@1d16f93d</td></tr>
+<tr>
+<td title='com.epam.transavia.SumAndAmountTest.doCompareSumAndAmount()'><b>doCompareSumAndAmount</b><br>Test class: com.epam.transavia.SumAndAmountTest<br/>
+<a href="#Output-1320388319" onClick='toggleBox("Output-1320388319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1320388319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1320388319">
+ INFO dAmountTest#  16: start: doCompareSumAndAmount
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+<br/>
+ INFO    MainPage# 127: Click Button: 'View your Booking'
+<br/>
+ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+<br/>
+ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+<br/>
+ INFO iaLoginPage#  34: 'Add Text to Date Field'
+<br/>
+ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+<br/>
+ INFO ingOverview#  31: 'Click Button: 'Booking details'
+<br/>
+ INFO kingDetails#  27: 'Get Sum'
+<br/>
+ INFO kingDetails#  22: 'Get Payment amount'
+<br/>
+ INFO dAmountTest#  23: doCompareSumAndAmount: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.epam.transavia.SumAndAmountTest@67b92f0a</td></tr>
+<tr>
+<td title='com.epam.transavia.SingleFlyTest.doFly()'><b>doFly</b><br>Test class: com.epam.transavia.SingleFlyTest<br/>
+<a href="#Output-923341586" onClick='toggleBox("Output-923341586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-923341586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-923341586">
+ INFO ngleFlyTest#  18: start: doFly
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+<br/>
+ INFO    MainPage# 111: Select Date
+<br/>
+ INFO hFlightPage#  42: 'Checked the presencse of flights'
+<br/>
+ INFO ngleFlyTest#  23: doFly: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.epam.transavia.SingleFlyTest@65e2dbf3</td></tr>
+<tr>
+<td title='com.epam.transavia.ArrivalTimeTest.findBookingFlight()'><b>findBookingFlight</b><br>Test class: com.epam.transavia.ArrivalTimeTest<br/>
+<a href="#Output-1003693033" onClick='toggleBox("Output-1003693033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003693033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003693033">
+ INFO valTimeTest#  20: start: findBookingFlight
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 125: Click Button: 'Manage your Booking'
+<br/>
+ INFO    MainPage# 127: Click Button: 'View your Booking'
+<br/>
+ INFO iaLoginPage#  28: 'Add Text to Booking Number Field'
+<br/>
+ INFO iaLoginPage#  31: 'Add Text to LastName Field'
+<br/>
+ INFO iaLoginPage#  34: 'Add Text to Date Field'
+<br/>
+ INFO iaLoginPage#  38: 'Click Button: 'View Booking'
+<br/>
+ INFO ingOverview#  37: 'Get Flight Number Text'
+<br/>
+ INFO ingOverview#  42: 'Get From Field Text'
+<br/>
+ INFO ingOverview#  47: 'Get To Field Text'
+<br/>
+ INFO ingOverview#  52: 'Get Arrival Time Text'
+<br/>
+ INFO valTimeTest#  29: findBookingFlight: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.epam.transavia.ArrivalTimeTest@3a5ed7a6</td></tr>
+<tr>
+<td title='com.epam.transavia.OneWayTicketTest.findDestination()'><b>findDestination</b><br>Test class: com.epam.transavia.OneWayTicketTest<br/>
+<a href="#Output-485845532" onClick='toggleBox("Output-485845532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-485845532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-485845532">
+ INFO yTicketTest#  15: start: findDestination
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage#  95: Click Button: 'Destinations'
+<br/>
+ INFO nationsPage#  19: 'Click Button: 'Find the perfect destination'
+<br/>
+ INFO inationPage#  93: 'Add Text to FROM Fields'
+<br/>
+ INFO inationPage#  96: 'Click Button: 'What Is Your Budget'
+<br/>
+ INFO inationPage# 102: 'Click Button: 'Search'
+<br/>
+ INFO yTicketTest#  21: findDestination: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.epam.transavia.OneWayTicketTest@7791a895</td></tr>
+<tr>
+<td title='com.epam.transavia.LowCostTicketTest.findFlight()'><b>findFlight</b><br>Test class: com.epam.transavia.LowCostTicketTest<br/>
+<a href="#Output-768185844" onClick='toggleBox("Output-768185844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-768185844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-768185844">
+ INFO tTicketTest#  19: start: findFlight
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage#  87: Click Button: 'Plan And Book'
+<br/>
+ INFO    MainPage#  89: Click Button: 'AdvancedSearch'
+<br/>
+ INFO inationPage#  69: 'Add Text to FROM Field'
+<br/>
+ INFO inationPage#  72: 'Add Text to TO Field'
+<br/>
+ INFO inationPage#  75: 'Click Button: 'Will You Be Taking Off'
+<br/>
+ INFO inationPage#  77: 'Select DropDown Fields'
+<br/>
+ INFO inationPage#  85: 'Click Button: 'Search'
+<br/>
+ INFO tTicketTest#  24: findFlight: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.epam.transavia.LowCostTicketTest@2b9627bc</td></tr>
+<tr>
+<td title='com.epam.transavia.FindFlightFromDubaiTest.findFlightFromDubai()'><b>findFlightFromDubai</b><br>Test class: com.epam.transavia.FindFlightFromDubaiTest<br/>
+<a href="#Output-1449772539" onClick='toggleBox("Output-1449772539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1449772539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1449772539">
+ INFO omDubaiTest#  16: start: findFlightFromDubai
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage# 149: Add Text to fields 'From' and 'To'
+<br/>
+ INFO    MainPage# 119: 'Click Search Flight from  Dubai to Agadir'
+<br/>
+ INFO hFlightPage#  47: 'Checked the error text'
+<br/>
+ INFO omDubaiTest#  21: findFlightFromDubai: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.epam.transavia.FindFlightFromDubaiTest@4f970963</td></tr>
+<tr>
+<td title='com.epam.transavia.VideoLinkTest.getVideoTest()'><b>getVideoTest</b><br>Test class: com.epam.transavia.VideoLinkTest<br/>
+<a href="#Output-479459041" onClick='toggleBox("Output-479459041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-479459041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-479459041">
+ INFO deoLinkTest#  16: start: getVideoTest
+<br/>
+ INFO    BaseTest#  31: Open page, 'navigate;
+<br/>
+ INFO    BaseTest#  33: finish, 'navigate;
+<br/>
+ INFO WelcomePage#  22: click: 'Select your country'
+<br/>
+ INFO    MainPage# 144: Click Button: 'Yes, I understand'
+<br/>
+ INFO    MainPage#  79: Click Button: 'Service'
+<br/>
+ INFO    MainPage#  81: Click Button: 'HandLuggage'
+<br/>
+ INFO LuggagePage#  28: 'Get VideoLink'
+<br/>
+ INFO LuggagePage#  33: 'Click Button: 'VideoLink'
+<br/>
+ INFO YouTubePage#  26: 'Get Video Name'
+<br/>
+ INFO YouTubePage#  34: 'Get Video Author'
+<br/>
+ INFO deoLinkTest#  24: getVideoTest: check OK;
+<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.epam.transavia.VideoLinkTest@6325a3ee</td></tr>
+</table><p>
+</body>
+</html>
