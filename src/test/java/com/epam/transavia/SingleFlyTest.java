@@ -11,7 +11,7 @@ public class SingleFlyTest extends BaseTest {
 	private static final Logger LOG = Logger.getLogger(SingleFlyTest.class);
 	private static final String FROM = "Lisbon, Portugal";
 	private static final String TO = "Paris";
-	private static final String DATE = "29-08-2017";
+	private static final String DATE = "14-09-2017";
 
 	@Test
 	public void doFly() {
