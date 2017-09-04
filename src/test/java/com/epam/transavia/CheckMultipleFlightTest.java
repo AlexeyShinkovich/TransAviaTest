@@ -9,10 +9,10 @@ public class CheckMultipleFlightTest extends BaseTest {
 	private static final Logger LOG = Logger.getLogger(CheckMultipleFlightTest.class);
 	private static final String OUTBOUNDFROM = "Bologna";
 	private static final String OUTBOUNDTO = "Eindhoven";
-	private static final String OUTBOUNDDATE = "02-09-2017";
+	private static final String OUTBOUNDDATE = "30-09-2017";
 	private static final String INBOUNDFROM = "Amsterdam";
 	private static final String INBOUNDTO = "Casablanca";
-	private static final String INBOUNDDATE = "08-09-2017";
+	private static final String INBOUNDDATE = "06-10-2017";
 	
 	@Test
 	public void checkFlight() {

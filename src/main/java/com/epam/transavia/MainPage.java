@@ -44,7 +44,7 @@ public class MainPage extends BasePage {
 	@FindBy(xpath = "//div[contains(@class,'HV-gs--bp0 HV-gs-type-e--bp10') and .//label[contains(.,'Children')]]//button[@class='button button-secondary increase']")
 	private WebElement buttonAddChildren;
 
-	@FindBy(xpath = "//form[@id='desktop']//a[contains(.,'Add multiple destinations')]")
+	@FindBy(xpath = "//form[@id='desktop']/section//ul/li[2]/a")
 	private WebElement buttonAddMultiple;
 
 	@FindBy(xpath = "//ul[@class='bulletless secondary-navigation_list']//a[text()='Destinations']")

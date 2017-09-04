@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 
 public class LowCostTicketTest extends BaseTest {
 	private static final Logger LOG = Logger.getLogger(LowCostTicketTest.class);
-	private static final String MONTH = "2017-09-01";
+	private static final String MONTH = "2017-10-01";
 	private static final String FLIGHTTYPE = "Single";
 	private static final String FROM = "Netherlands";
 	private static final String TO = "France";
 	private static final String DAYOFTHEWEEK = "";
-	private static final String CHECKTEXT = "Nice, France; 29 евро";
+	private static final String CHECKTEXT = "Nice, France; 24 евро";
 
 	@Test
 	public void findFlight() {
